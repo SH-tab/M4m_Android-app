@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".UserInterfaz">
+
+
+    <TextView
+        android:id="@+id/Tittle1_control"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:text="@string/Txt_Tittle1_control"
+        android:textAlignment="center"
+        android:textColor="@color/color_Xemt2"
+        android:textSize="12sp">
+
+    </TextView>
+
+
+    <Button
+        android:id="@+id/BtnAdelante"
+        android:layout_width="95dp"
+        android:layout_height="50dp"
+        android:layout_alignBottom="@id/TvXemt"
+        android:layout_marginBottom="-64dp"
+        android:layout_centerHorizontal="true"
+        android:text="@string/Txt_btnAdelante"
+        android:textColor="@color/colorText1">
+
+    </Button>
+
+
+    <Button
+        android:id="@+id/BtnAtras"
+        android:layout_width="95dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignBottom="@id/BtnAdelante"
+        android:layout_marginBottom="-116dp"
+        android:text="@string/Txt_btnAtras"
+        android:textColor="@color/colorText1">
+
+    </Button>
+
+
+
+    <TextView
+        android:id="@+id/TvBufferIn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="8dp"
+        android:layout_alignBottom="@id/BtnDesconectar"
+        android:text="@string/Txt_datoMandado"
+        android:textAlignment="textStart"
+        android:textSize="14sp">
+
+    </TextView>
+
+
+
+    <TextView
+        android:id="@+id/TvXemt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignBottom="@id/Tittle1_control"
+        android:layout_marginBottom="-54dp"
+        android:text="@string/Txt_tvXemt"
+        android:textColor="@color/color_Xemt2"
+        android:textSize="40sp">
+
+    </TextView>
+
+
+
+    <Button
+        android:id="@+id/BtnDesconectar"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="8dp"
+        android:text="@string/Txt_btnDesconectar"
+        android:textColor="@color/color_Xemt">
+
+    </Button>
+
+
+
+    <SeekBar
+        android:id="@+id/seekB_volt"
+        android:layout_width="266dp"
+        android:layout_height="400dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentEnd="true"
+        android:rotation="270">
+
+    </SeekBar>
+
+
+
+    <SeekBar
+        android:id="@+id/seekB_stop"
+        android:layout_width="266dp"
+        android:layout_height="400dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true"
+        android:rotation="270">
+
+    </SeekBar>
+
+
+    <SeekBar
+        android:id="@+id/seekB_volante"
+        android:layout_width="266dp"
+        android:layout_height="66dp"
+        android:layout_alignBottom="@id/BtnAdelante"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="-66dp">
+
+    </SeekBar>
+
+
+
+    <TextView
+        android:id="@+id/Tv_seekB_volt"
+        android:layout_width="50dp"
+        android:layout_height="20dp"
+        android:layout_alignBottom="@id/Tittle1_control"
+        android:layout_marginBottom="-24dp"
+        android:layout_alignStart="@id/seekB_volt"
+        android:layout_marginStart="110dp"
+        android:text=""
+        android:textSize="12sp"
+        android:textAlignment="center">
+
+    </TextView>
+
+
+
+    <TextView
+        android:id="@+id/Tv_seekB_stop"
+        android:layout_width="50dp"
+        android:layout_height="20dp"
+        android:layout_alignBottom="@id/Tittle1_control"
+        android:layout_marginBottom="-24dp"
+        android:layout_alignEnd="@id/seekB_stop"
+        android:layout_marginEnd="110dp"
+        android:text=""
+        android:textSize="12sp"
+        android:textAlignment="center">
+
+    </TextView>
+
+
+
+    <TextView
+        android:id="@+id/Tv_seekB_volante_Izq"
+        android:layout_width="50dp"
+        android:layout_height="20dp"
+        android:layout_alignBottom="@id/BtnAdelante"
+        android:layout_marginBottom="-46dp"
+        android:layout_alignStart="@id/seekB_volante"
+        android:layout_marginStart="-50dp"
+        android:text=""
+        android:textSize="12sp"
+        android:textAlignment="center">
+
+    </TextView>
+
+
+
+    <TextView
+        android:id="@+id/Tv_seekB_volante_Dch"
+        android:layout_width="50dp"
+        android:layout_height="20dp"
+        android:layout_alignBottom="@id/BtnAdelante"
+        android:layout_marginBottom="-46dp"
+        android:layout_alignEnd="@id/seekB_volante"
+        android:layout_marginEnd="-50dp"
+        android:text=""
+        android:textSize="12sp"
+        android:textAlignment="center">
+
+    </TextView>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,36 @@
+<resources>
+
+    <string name="app_name">M4m 5</string>
+
+
+    // Activity de conexión bluetooth
+
+    <string name="Tv_Tittle_1">M4m</string>
+    <string name="Tv_Tittle_2">controller</string>
+    <string name="Tv_ByXemt">Powered by XemT</string>
+
+    <string name="Iv_RobotcinDescription">RobotcinLogo</string>
+
+    <string name="Txt_Btn_connect">Connect</string>
+
+    <string name="Txt_Tv_BtnConnect">Select a device for connect     :)</string>
+    <string name="Txt_Tv_BtnConnect_no">There isn´t paired devices</string>
+
+
+
+    // Activity de Interfaz del control
+
+    <string name="Txt_Tittle1_control">Este control es temporal, se usa solo para pruebas</string>
+    <string name="Txt_btnDesconectar">Desconectar</string>
+
+    <string name="Txt_btnAdelante">Adelante</string>
+    <string name="Txt_btnAtras">Atras</string>
+    <string name="Txt_btnDerecha">Derecha</string>
+    <string name="Txt_btnIzquierda">Izquierda</string>
+
+    <string name="Txt_datoMandado">Dato mandado : </string>
+
+    <string name="Txt_tvXemt">XemT</string>
+
+
+</resources>
